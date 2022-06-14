@@ -1,0 +1,36 @@
+.rectangle_marron{
+    width: 70%;
+    height: 50%;
+    background-color: #7C1A0D;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 17px;
+}
+
+.rectangle_filtre{
+    margin-left: -30px;
+    width: 300px;
+    height: 475px;
+    background: #FE5B28;
+    border-radius: 12px;
+}
+
+.connexion {
+    resize: none;
+    width: 50vh;
+    height: 6vh;
+    border: none;
+    border-radius: 5vh;
+    text-align: center;
+}
+
+.bouton_connexion{
+    height: 41px;
+    background: #E35E40;
+    border-radius: 41.5px;
+    text-align: center;
+    color: white;
+    display: inline-block;
+    padding: 0 50px 0 50px;
+    padding-top: 10px;
+    font-size: 20px;
+}
