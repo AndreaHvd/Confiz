@@ -1,4 +1,10 @@
-*{
-    background-color: red;
+.login{
+    background-image: url("img/bonbons.jpeg");
+    background-size: cover;
+    font-family: 'Island Moments', cursive;
+    font-size: 250px;
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
 }
-h

@@ -1,8 +1,7 @@
-<!DOCTYPE html>
-    <head>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <p>Lorem ipsum</p>
+<?php
+include_once("head.php");
+?>
+    <body class="login">
+        <p>Confiz</p>
     </body>
 </html>
