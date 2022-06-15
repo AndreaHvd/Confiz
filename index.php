@@ -7,11 +7,15 @@ include_once("head.php");
             <div class="rectangle_connexion">
                 <div class="bloc_connexion">
                     <p class="texte">Nom:</p>
-                    <textarea class="connexion" name="nom"></textarea>
+                    <form class="connexion" name="nom">
+                        <input class="connexion" type="text">
+                    </form>
                 </div>
                 <div class="bloc_connexion">
                     <p class="texte">Mot de passe:</p>
-                    <textarea class="connexion" name="mdp"></textarea>
+                    <form class="connexion" name="mdp">
+                        <input class="connexion" type="text">
+                    </form>
                 </div>
             </div>
             <button class="bouton bouton-orange texte">
