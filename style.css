@@ -12,7 +12,6 @@
     font-size: 250px;
     color: white;
     margin-bottom: 0;
-
 }
 
 .texte {
@@ -32,5 +31,22 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+header{
+    position: fixed;
+    display:flex;
+    text-align: center;
+    background-color: #FE7B3B;
+    width: 100%;
+    margin-left: -8px;
+    margin-top: -10px;
+    color:#FFFFFF;
+    box-shadow: 0 1px 10px rgba(255, 255, 255, 0.25), 0 4px 10px rgba(34, 40, 49, 0.75);
+}
+.bouton_retour_acceuil{
+    font-family: 'Island Moments', cursive;
+    font-size: 80px;
+    padding-left: 5%;
 }
 
