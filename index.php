@@ -14,9 +14,9 @@ include_once("head.php");
                     <textarea class="connexion" name="mdp"></textarea>
                 </div>
             </div>
-            <div class="bouton_connexion">
+            <button class="bouton bouton-orange texte">
                 Connexion
-            </div>
+            </button>
         </div>
     </body>
 </html>
