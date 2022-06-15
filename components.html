@@ -1,12 +1,10 @@
 <!-- fond de connexion -->
 
-<div class="rectangle_connexion">
-</div>
+<div class="rectangle_connexion"></div>
 
 <!-- filtre -->
 
-<div class="rectangle_filtre">
-</div>
+<div class="rectangle_filtre"></div>
 
 <!-- bouton orange et blanc-->
 
@@ -22,8 +20,30 @@
 
 <input class="bouton_retour_acceuil" type="submit" value="Confiz"> 
 
-<header>
-<div class="bouton_retour_acceuil">Confiz</div> 
-<input class="barre_recherche" type="text" placeholder="Rechercher une boutique">
-<input type="submit" class="bouton bouton-blanc" value="">
-</header>
+<!-- confiserie vue du gérant -->
+
+<div class="confiserie-gerant texte">
+    <div class="img-confiserie">
+        <img src="https://via.placeholder.com/200x250" alt="confiserie">
+    </div>
+    <div class="info-confiserie">
+        <div class="info">
+            <p>Nom :</p>
+        </div>
+        <div class="info">
+            <p>Stock :</p>
+        </div>
+        <div class="info">
+            <p>Prix :</p>
+        </div>
+        <div class="gestion-stock">
+            <input type="submit" class="bouton-stock bouton-vert" value="+">
+            <input type="number" class="choix-nombre">
+            <input type="submit" class="bouton-stock bouton-rouge" value="-">
+        </div>
+    </div>
+    <div class="delete-all">
+        <input type="submit" class="bouton-stock bouton-rouge" value="X">
+    </div>
+</div>
+

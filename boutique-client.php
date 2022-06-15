@@ -8,6 +8,7 @@ include_once("head.php");
         <input class="barre_recherche" type="text" placeholder="Rechercher une boutique">
         <input type="submit" class="bouton bouton-blanc texte" value="Deconnexion">
     </header>
+    <div class="sous_header"></div>
 </body>
 
 </html>
