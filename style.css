@@ -1,3 +1,7 @@
+body{
+    margin: 0;
+}
+
 .login{
     background-image: url("img/bonbons.jpeg");
     background-size: cover;
@@ -36,17 +40,24 @@
 header{
     position: fixed;
     display:flex;
-    text-align: center;
+    justify-content: space-between;
+    align-items: center;
     background-color: #FE7B3B;
     width: 100%;
-    margin-left: -8px;
-    margin-top: -10px;
     color:#FFFFFF;
     box-shadow: 0 1px 10px rgba(255, 255, 255, 0.25), 0 4px 10px rgba(34, 40, 49, 0.75);
+    margin: 0;
 }
+
 .bouton_retour_acceuil{
     font-family: 'Island Moments', cursive;
     font-size: 80px;
     padding-left: 5%;
 }
 
+.form-connexion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

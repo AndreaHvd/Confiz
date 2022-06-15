@@ -47,8 +47,23 @@
     color: black;
 }
 
+.barre_recherche{
+    resize: none;
+    width: 50vh;
+    height: 6vh;
+    border: none;
+    border-radius: 5vh;
+    text-align: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 30px;
+    background-color: white;
+    background-image: url("img/loupe.png");
+    background-size: 10%;
+    background-repeat: no-repeat;
+    background-position: right;
+}
 
-input{
+/* .input{
     border-radius: 41.5px;
     color: white;
     padding: 5px 5px 5px 5px;
@@ -75,4 +90,4 @@ input{
     background: #FFFF;
     border: 1px solid grey;
     color: black;
-}
+}  */
