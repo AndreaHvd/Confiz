@@ -187,3 +187,29 @@
     padding-top: 10px;
     font-size: 20px;
 }
+
+.add-boutique{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #D9D9D9;
+    padding: 5%;
+    width: max-content;
+    border-radius: 5vh;
+}
+
+.bloc-add{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.zone-texte {
+    width: 30vh;
+    height: 5vh;
+    margin-left: 2vh;
+    border: none;
+    border-radius: 5vh;
+}
