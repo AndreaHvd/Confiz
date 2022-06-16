@@ -16,7 +16,8 @@ include_once("header.php");
             <input class="zone-texte" type="text">
         </div>
         <div class="bouton-selection">
-            
+            <input type="button" value="Continuer" class="bouton_rectangle texte">
+            <input type="button" value="Annuler" class="bouton_rectangle texte">
         </div>
     </div>
 </body>
