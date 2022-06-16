@@ -14,7 +14,11 @@ include_once("header.php");
             </div>
             <div class="bloc-add">
                 <p>Adresse : </p>
-                <input class="zone-texte" type="text">
+                <div class="bloc-zone-texte">
+                    <input class="zone-texte" type="text" placeholder="Adresse">
+                    <input class="zone-texte" type="text" placeholder="Code Postal et Ville">
+                    <input class="zone-texte" type="text" placeholder="Pays">
+                </div>
             </div>
             <div class="bouton-selection">
                 <input type="button" value="Continuer" class="bouton_rectangle texte">
