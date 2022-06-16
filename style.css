@@ -21,6 +21,7 @@ body{
 .texte {
     font-family: 'Inter', sans-serif;
     font-size: 30px;
+    text-decoration: none;
 }
 
 .rectangle_connexion{
