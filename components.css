@@ -187,3 +187,10 @@
     padding-top: 10px;
     font-size: 20px;
 }
+
+.bouton_rectangle{
+    background-color: #6F6F6F;
+    border: none;
+    color: white;
+    padding: 10px 20px 10px 20px;
+}
