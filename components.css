@@ -124,3 +124,27 @@
 .delete-all{
     margin-top: 2vh;
 }
+
+.carte_produit{
+    display: flex;
+    width: 350px;
+    height: 175px;
+    background-color: #EDEDED;
+    border-radius: 20px;
+}
+
+.titre_description{
+    font-weight: bold;
+}
+.photo_produit{
+    background-color: #D9D9D9;
+    width: 150px;
+    height: 150px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.produit{
+    padding-left: 5px;
+    padding-top: 10px;
+}
