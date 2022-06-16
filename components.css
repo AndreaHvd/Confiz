@@ -6,12 +6,10 @@
     border-radius: 17px;
 }
 
-.rectangle_filtre{
-    margin-left: -30px;
-    width: 300px;
-    height: 475px;
-    background: #FE5B28;
-    border-radius: 12px;
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .connexion {
@@ -197,6 +195,7 @@
     padding: 5%;
     width: max-content;
     border-radius: 5vh;
+    margin-top: 5%;
 }
 
 .bloc-add{
@@ -214,14 +213,18 @@
     border-radius: 5vh;
 }
 
-.bouton-selection{
-    
-}
-
 .bouton_rectangle{
     background-color: #6F6F6F;
     border: none;
     color: white;
     padding: 10px 20px 10px 20px;
     margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.bouton-selection{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
