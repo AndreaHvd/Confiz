@@ -212,4 +212,9 @@
     margin-left: 2vh;
     border: none;
     border-radius: 5vh;
+.bouton_rectangle{
+    background-color: #6F6F6F;
+    border: none;
+    color: white;
+    padding: 10px 20px 10px 20px;
 }
