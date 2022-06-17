@@ -14,8 +14,8 @@ include_once("header.php");
         <div class='texte'>".$element['nom']."</div>
         <div class='photo_boutique'></div>
         <div class='adresse_boutique texte'>".$element['numero_rue']." ".$element['nom_adresse']."</br>"
-        .$element['code_postal']." ".$element['ville'].$element['pays']."</div>
-        <a class='bouton_rectangle' href='confiserie-client.php?id='>Voir</a></div>");
+        .$element['code_postal']." ".$element['ville']." ".$element['pays']."</div>
+        <a class='bouton_rectangle' href='confiserie-client.php?id=".$element['boutique_id']."'>Voir</a></div>");
     }
     ?>
     </div>

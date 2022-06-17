@@ -125,8 +125,7 @@
 
 .carte_produit{
     display: flex;
-    width: 350px;
-    height: 175px;
+    width: 40%;
     background-color: #EDEDED;
     border-radius: 20px;
 }
