@@ -184,6 +184,8 @@
     padding-left: 10px;
     padding-top: 10px;
     font-size: 20px;
+    display: flex;
+    text-align: center;
 }
 
 .add-boutique{
