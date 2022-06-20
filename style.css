@@ -69,3 +69,7 @@ header{
     justify-content: space-around;
     margin-top: 5%;
 }
+
+p{
+    margin: 0;
+}
