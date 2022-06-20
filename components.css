@@ -114,6 +114,7 @@
 }
 
 .img-confiserie{
+    width: 100%;
     height: 100%;
     display: flex;
     align-items: center;
@@ -149,16 +150,21 @@
     display: flex;
     flex-direction: row;
     background-color: #D9D9D9;
-    width: 50%;
-    height: 30vh;
+    width: max-content;
     justify-content: space-around;
     align-items: flex-start;
     border-radius: 5vh;
+    padding: 15px 55px 15px 55px;
 }
 
 .info-boutique{
     display: flex;
     flex-direction: column;
+    width: 40vw;
+}
+
+.info-boutique>*{
+    width: 30vw;
 }
 
 .carte_boutique{
