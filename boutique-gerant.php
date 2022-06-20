@@ -21,6 +21,7 @@ $sql = "SELECT * FROM boutiques NATURAL JOIN adresses";
             <p>".$element['numero_rue'].$element['nom_adresse'].$element['code_postal'].$element['ville'].$element['pays']."</p>
         </div>
     </div>
+    <a class='bouton_rectangle' href='confiserie-gerant.php?id=".$element['boutique_id']."'>Voir</a>
 </div>");
     }
 ?>
