@@ -6,7 +6,7 @@ include_once("header.php");
 
 <body>
 <?php 
-$sql = "SELECT * FROM boutique NATURAL JOIN adresses";
+$sql = "SELECT * FROM boutiques NATURAL JOIN adresses";
     $boutique = db_query($sql);
     foreach($boutique as $element) {
     echo ("<div class='boutique-gerant texte'>
