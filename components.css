@@ -168,7 +168,7 @@
 }
 
 .carte_boutique{
-    background-color: #EDEDED;
+    background-color: #FF6F44;
     width: 30%;
     border-radius: 20px;
     display: flex;
@@ -227,6 +227,7 @@
     margin-top: 5%;
     margin-left: 5%;
     margin-right: 5%;
+    border-radius: 10px;
 }
 
 .bouton-selection{
