@@ -68,10 +68,28 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
 p{
     margin: 0;
 }
+
+.taille {
+    height: 60vh;
+}
+
+.scroll{
+    height: 60vh;
+    overflow: hidden;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+}
+
+.bloc2{
+    display: flex;
+    flex-direction: row;
+    
+}
+
