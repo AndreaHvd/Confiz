@@ -39,7 +39,7 @@ $id = $_GET['id'];
             }
             ?>
         </div>
-        <div class="add texte">
+        <form class="add texte">
             <p>Nouvelle confiserie</p>
             <div class="bloc-add">
                 <p>Nom : </p>
@@ -57,7 +57,7 @@ $id = $_GET['id'];
                 <a class="bouton_rectangle texte" href="confiserie-gerant.php?id=<?= $id ?>">Continuer</a>
                 <a class="bouton_rectangle texte" href="confiserie-gerant.php?id=<?= $id ?>">Annuler</a>
             </div>
-        </div>
+        </form>
     </div>
 </body>
 
