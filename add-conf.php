@@ -31,7 +31,7 @@ if(isset($_POST['add'])){
 }
 
 if(isset($_POST['delete'])){
-    $sql3 = "SELECT id FROM stocks WHERE boutique_id = '$id' AND confiserie_id = '$var' ORDER BY date_de_peremption DESC";
+    $sql3 = "SELECT id FROM stocks WHERE boutique_id = '$id' AND confiserie_id = '$var'";
     $stock = db_query($sql3);
     for ($i = 0; $i < $_POST['number']; $i++) {
         $sql4 = "DELETE FROM stocks WHERE id='" . $stock[$i]['id'] . "'";
