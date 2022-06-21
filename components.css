@@ -93,11 +93,12 @@
 }
 
 .bouton-stock{
-    width: 5vh;
-    height: 5vh;
+    width: max-content;
     color: white;
     border-radius: 50%;
     border: none;
+    padding: 15px 15px 15px 15px;
+    text-align: center;
 }
 
 .bouton-vert{

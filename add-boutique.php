@@ -7,7 +7,7 @@ include_once("header.php");
 <body>
     <div class="main-container">
         <form>
-            <div class="add-boutique texte">
+            <div class="add texte">
                 <p>Nouvelle Boutique</p>
                 <div class="bloc-add">
                     <p>Nom : </p>

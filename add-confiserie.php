@@ -32,7 +32,7 @@ $id = $_GET['id'];
                                 
                             </div>
                         </div>
-                        <a class='bouton_rectangle texte' href='add-conf.php?id=$id&var=".$element['confiserie_id']."'>Ajouter à la boutique</a>
+                        <a class='bouton_rectangle texte' href='add-conf.php?id=$id&var=".$element['confiserie_id']."&page=1'>Ajouter à la boutique</a>
                     </div>");
                 }
                 $check = false;
