@@ -29,7 +29,6 @@ $id = $_GET['id'];
                                 <div class='titre_description'><u>Nom :</u> " . $element['nom'] . "</div>
                                 <div class='titre_description'><u>Type :</u> " . $element['type'] . "</div>
                                 <div class='titre_description'><u>Prix :</u> " . $element['prix'] . "€</div>
-                                
                             </div>
                         </div>
                         <a class='bouton_rectangle texte' href='add-conf.php?id=$id&var=".$element['confiserie_id']."&page=1'>Ajouter à la boutique</a>

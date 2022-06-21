@@ -134,13 +134,16 @@
     font-weight: bold;
 }
 .photo_produit{
-    background-color: #D9D9D9;
+    /*background-color: #D9D9D9;*/
     width: 150px;
     height: 150px;
     margin-left: 10px;
     margin-top: 10px;
     margin-right: 10px;
     border-radius: 10px;
+    background-image: url('img/candy.jpg');
+    background-size: cover;
+
 }
 .produit{
     padding-left: 5px;
@@ -182,7 +185,8 @@
     padding-top: 10px;
     width: 80%;
     height: 10vw;
-    background-color: #D9D9D9;
+    background-image: url('img/magasin1.jpg');
+    background-size: cover;
 }
 
 .adresse_boutique{
