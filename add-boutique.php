@@ -6,24 +6,25 @@ include_once("header.php");
 
 <body>
     <div class="main-container">
-        <form>
+        <form name="add-boutique" action="add-bt.php" method="post">
             <div class="add texte">
                 <p>Nouvelle Boutique</p>
                 <div class="bloc-add">
                     <p>Nom : </p>
-                    <input class="zone-texte" type="text">
+                    <input name="nom" class="zone-texte" type="text" required>
                 </div>
                 <div class="bloc-add">
                     <p>Adresse : </p>
                     <div class="bloc-zone-texte">
-                        <input class="zone-texte" type="text" placeholder="Adresse">
-                        <input class="zone-texte" type="text" placeholder="Code Postal">
-                        <input class="zone-texte" type="text" placeholder="Ville">
-                        <input class="zone-texte" type="text" placeholder="Pays">
+                        <input name="numero" class="zone-texte" type="text" placeholder="Numéro de rue" required>
+                        <input name="rue" class="zone-texte" type="text" placeholder="Rue" required>
+                        <input name="codepostal" class="zone-texte" type="text" placeholder="Code Postal" required>
+                        <input name="ville" class="zone-texte" type="text" placeholder="Ville" required>
+                        <input name="pays" class="zone-texte" type="text" placeholder="Pays" required>
                     </div>
                 </div>
                 <div class="bouton-selection">
-                    <input type="submit" class="bouton_rectangle texte" value="Continuer">
+                    <input name="continuer" type="submit" class="bouton_rectangle texte" value="Continuer">
                     <a class="bouton_rectangle texte" href="boutique-gerant.php">Annuler</a>
                 </div>
             </div>

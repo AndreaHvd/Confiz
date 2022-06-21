@@ -24,7 +24,7 @@ $sql = "SELECT * FROM boutiques NATURAL JOIN adresses";
     </div>
     <a class='bouton_rectangle' href='confiserie-gerant.php?id=".$element['boutique_id']."'>Voir</a>
     <div class='delete-all'>
-        <input type='submit' class='bouton-stock bouton-rouge texte' value='X'>
+        <a class='bouton-stock bouton-rouge texte' href='delete-bt.php?id=".$element['boutique_id']."'>X</a>
     </div>
 </div></div>");
     }
