@@ -31,10 +31,11 @@ if(isset($_POST['add'])){
 }
 
 if(isset($_POST['delete'])){
-    echo "test";
-    $sql2 = "DELETE FROM stocks WHERE confiserie_id=$var boutique_id=$id";
-    for($i=0; $i < $_POST['number']; $i++){
-        db_query($sql2);
+    $sql3 = "SELECT id FROM stocks WHERE boutique_id = '$id' AND confiserie_id = '$var'";
+    $stock = db_query($sql3);
+    for ($i = 0; $i < $_POST['number']; $i++) {
+        $sql4 = "DELETE FROM stocks WHERE id='" . $stock[$i]['id'] . "'";
+        $results = db_query($sql4);
     }
     header("location: confiserie-gerant.php?id=$id");
 }
