@@ -69,9 +69,10 @@
     flex-direction: row;
     background-color: #D9D9D9;
     width: 50%;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     border-radius: 5vh;
+    padding: 2% 2% 2% 2%;
 }
 
 .info-confiserie{

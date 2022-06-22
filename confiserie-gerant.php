@@ -15,9 +15,6 @@ include_once("header.php");
     foreach($confiseries as $element){   
         $stock = db_query("SELECT count(*) FROM stocks WHERE confiserie_id=".$element['confiserie_id']." AND boutique_id=$id");
         echo("<div class='bloc'><div class='confiserie-gerant texte'>
-                <div class='img-confiserie'>
-                    <img src='https://via.placeholder.com/200x250' alt='confiserie'>
-                </div>
                 <div class='info-confiserie'>
                     <div class='info'>
                         <p><u>Nom :</u> ".$element['nom']."</p>

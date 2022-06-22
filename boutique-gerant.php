@@ -11,9 +11,6 @@ $sql = "SELECT * FROM boutiques NATURAL JOIN adresses";
     $boutique = db_query($sql);
     foreach($boutique as $element) {
     echo ("<div class='bloc'><div class='boutique-gerant texte'>
-    <div class='img-confiserie'>
-        <img src='https://via.placeholder.com/250x200' alt='boutique'>
-    </div>
     <div class='info-boutique'>
         <div class='info'>
             <p><u>".$element['nom']."</u></p>
