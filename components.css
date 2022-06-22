@@ -68,9 +68,9 @@
     display: flex;
     flex-direction: row;
     background-color: #D9D9D9;
-    width: 30%;
-    justify-content: center;
-    align-items: flex-start;
+    width: 50%;
+    justify-content: space-around;
+    align-items: center;
     border-radius: 5vh;
 }
 
@@ -89,6 +89,7 @@
 .gestion-stock{
     display: flex;
     flex-direction: row;
+    margin-top: 4%;
     margin-left: 2vh;
 }
 
@@ -116,6 +117,8 @@
 .img-confiserie{
     display: flex;
     align-items: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
 .delete-all{
