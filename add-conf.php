@@ -39,4 +39,27 @@ if(isset($_POST['delete'])){
     }
     header("location: confiserie-gerant.php?id=$id");
 }
+
+$nom = $_POST['nomconf'];
+$type = $_POST['typeconf'];
+$prix = $_POST['prixconf'];
+
+if(isset($_POST['continuer'])){
+    $sql4 = "INSERT INTO confiseries (nom, type, prix) VALUES (:nom, :type, :prix)";
+    $data4 = [
+        'nom' => $nom,
+        'type' => $type,
+        'prix' => $prix,
+    ];
+    $confiserie_id = db_insert($sql4, $data4);
+    $sql5 = "INSERT INTO stocks (date_de_peremption, date_de_mise_en_stock, boutique_id, confiserie_id) VALUES (:date_de_peremption, :date_de_mise_en_stock, :boutique_id, :confiserie_id)";
+    $data5 = [
+        'date_de_peremption' => "2022-06-30",
+        'date_de_mise_en_stock' => "2022-06-22",
+        'boutique_id' => $id,
+        'confiserie_id' => $confiserie_id,
+    ];
+    db_insert($sql5, $data5);
+    header("location: confiserie-gerant.php?id=$id");
+}
 ?>

@@ -38,22 +38,22 @@ $id = $_GET['id'];
             }
             ?>
         </div>
-        <form class="add texte">
+        <form name="addconf" method="post" action="add-conf.php?id=<?= $id ?>" class="add texte">
             <p>Nouvelle confiserie</p>
             <div class="bloc-add">
                 <p>Nom : </p>
-                <input class="zone-texte" type="text">
+                <input name="nomconf" class="zone-texte" type="text">
             </div>
             <div class="bloc-add">
                 <p>Type : </p>
-                <input class="zone-texte" type="text">
+                <input name="typeconf" class="zone-texte" type="text">
             </div>
             <div class="bloc-add">
                 <p>Prix : </p>
-                <input class="zone-texte" type="text">
+                <input name="prixconf" class="zone-texte" type="text">
             </div>
             <div class="bouton-selection">
-                <a class="bouton_rectangle texte" href="confiserie-gerant.php?id=<?= $id ?>">Continuer</a>
+                <input type="submit" name="continuer" class="bouton_rectangle texte" value="Continuer">
                 <a class="bouton_rectangle texte" href="confiserie-gerant.php?id=<?= $id ?>">Annuler</a>
             </div>
         </form>
