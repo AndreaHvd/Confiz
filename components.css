@@ -1,9 +1,9 @@
 .rectangle_marron{
     width: 70%;
-    height: 50%;
     background-color: #7C1A0D;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 17px;
+    border-radius: 5vh;
+    padding: 2% 2% 2% 2%;
 }
 
 .main-container{
@@ -129,9 +129,8 @@
 .carte_produit{
     display: flex;
     width: 40%;
-    background-color: #EDEDED;
+    background-color: #D9D9D9;
     border-radius: 20px;
-    background-color: #FF6F44;
 }
 
 .titre_description{
@@ -141,10 +140,8 @@
     /*background-color: #D9D9D9;*/
     width: 150px;
     height: 150px;
-    margin-left: 10px;
-    margin-top: 10px;
-    margin-right: 10px;
-    border-radius: 10px;
+    margin:2%;
+    border-radius: 2%;
     background-image: url('img/candy.jpg');
     background-size: cover;
 
@@ -176,9 +173,10 @@
 }
 
 .carte_boutique{
-    background-color: #FF6F44;
+    background-color: #D9D9D9;
     width: 30%;
     border-radius: 20px;
+    margin-bottom: 2%;
     display: flex;
     justify-content: center;
     align-items: center;
