@@ -34,7 +34,7 @@ if (isset($_POST['username'])){
                 </div>
             </div>
             <input type="submit" class="bouton bouton-orange texte" value="Connexion">
-            <p class="texte">Pas encore de compte ? <a class="texte" href="inscription.php">Inscription</a></p>
+            <p class="texte">Pas encore de compte ? <a class="texte_inscription" href="inscription.php">Inscription</a></p>
         </form>
     </body>
 </html>
