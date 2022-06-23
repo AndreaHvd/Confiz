@@ -20,7 +20,7 @@ if (isset($_POST['username'])){
     }
 }
 ?>
-    <body class="login">
+    <body class="login fond">
         <h1 class="titre">Confiz</h1>
         <form class="rectangle_marron" name="connexion" action="" method="post">
             <div class="rectangle_connexion">
@@ -34,6 +34,7 @@ if (isset($_POST['username'])){
                 </div>
             </div>
             <input type="submit" class="bouton bouton-orange texte" value="Connexion">
+            <p class="texte">Pas encore de compte ? <a class="texte" href="inscription.php">Inscription</a></p>
         </form>
     </body>
 </html>

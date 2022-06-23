@@ -3,9 +3,12 @@ body{
     background-color: #FFECE1;
 }
 
-.login{
+.fond{
     background-image: url("img/bonbons.jpeg");
     background-size: cover;
+}
+
+.login{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -91,7 +94,12 @@ p{
 
 .bloc2{
     display: flex;
-    flex-direction: row;
-    
+    flex-direction: row; 
+}
+
+.inscription{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
