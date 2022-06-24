@@ -1,6 +1,5 @@
 <?php
 include_once("head.php");
-session_start();
 if (isset($_POST['username'])){
     $username = $_POST['username'];
     $password = $_POST['password'];
@@ -11,6 +10,7 @@ if (isset($_POST['username'])){
         if ($login[0]['password'] == $password){
             $_SESSION['username'] = $username;
             $_SESSION['loged'] = true;
+            $_SESSION['type'] = $login[0]['type'];
             if ($login[0]['type'] == "gerant"){
                 header("location: boutique-gerant.php");
             } else {
