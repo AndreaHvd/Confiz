@@ -5,7 +5,6 @@ include_once("header.php");
 ?>
 
 <body>
-    <script src="produit.js"></script>
     <?php
     $id = $_GET['id'];
     $sql = "SELECT * FROM stocks NATURAL JOIN confiseries WHERE boutique_id='$id' GROUP BY nom";
