@@ -1,5 +1,6 @@
 <?php
 include_once("head.php");
+include_once("verif.php");
 
 $numero = $_POST['numero'];
 $rue = $_POST['rue'];

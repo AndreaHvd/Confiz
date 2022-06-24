@@ -1,5 +1,6 @@
 <?php
 include_once("head.php");
+include_once("verif.php");
 $var = $_GET['var'];
 $id = $_GET['id'];
 

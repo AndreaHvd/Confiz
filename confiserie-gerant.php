@@ -2,6 +2,7 @@
 include_once("head.php");
 $page = "confiserie-gerant";
 include_once("header.php");
+include_once("verif.php");
 ?>
 
 <body>
