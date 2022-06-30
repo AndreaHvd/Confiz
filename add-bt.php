@@ -19,12 +19,12 @@ if(isset($_POST['continuer'])){
         'pays' => $pays,
     ];
     $adresse_id = db_insert($sql, $data);
-    $sql2 = "INSERT INTO boutiques (nom, adresse_id) VALUES (:nom, :adresse_id)";
-    $data2 = [
+    $sql = "INSERT INTO boutiques (nom, adresse_id) VALUES (:nom, :adresse_id)";
+    $data = [
         'nom' => $nom,
         'adresse_id' => $adresse_id,
     ];
-    db_insert($sql2, $data2);
+    db_insert($sql, $data);
     header("location: boutique-gerant.php");
 }
 ?>

@@ -23,7 +23,7 @@ if (isset($_POST['username'])){
     }  else {
     echo ("<script>alert('pseudo ou mot de passe incorrect')</script>");
     }
-} else {
+} elseif(isset($_POST['connexion'])) {
     echo ("<script>alert('pseudo ou mot de passe incorrect')</script>");
     } 
 }
@@ -41,7 +41,7 @@ if (isset($_POST['username'])){
                     <input name="password" class="connexion" type="password">
                 </div>
             </div>
-            <input type="submit" class="bouton bouton-orange texte" value="Connexion">
+            <input type="submit" name="connexion" class="bouton bouton-orange texte" value="Connexion">
             <p class="texte">Pas encore de compte ? <a class="texte_inscription" href="inscription.php">Inscription</a></p>
         </form>
     </body>
