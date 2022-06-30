@@ -6,6 +6,7 @@ if (isset($_POST['username'])){
     $sql = "SELECT * FROM utilisateurs WHERE username='$username'";
     $login = db_query($sql);
     $password = hash("md5", $password);
+    if(!empty($login)){
     if ($login[0]['username'] == $username){
         if ($login[0]['password'] == $password){
             $_SESSION['username'] = $username;
@@ -16,8 +17,15 @@ if (isset($_POST['username'])){
             } else {
                 header("location: boutique-client.php");
             }
+        } else {
+        echo ("<script>alert('pseudo ou mot de passe incorrect')</script>");
         }
+    }  else {
+    echo ("<script>alert('pseudo ou mot de passe incorrect')</script>");
     }
+} else {
+    echo ("<script>alert('pseudo ou mot de passe incorrect')</script>");
+    } 
 }
 ?>
     <body class="login fond">
